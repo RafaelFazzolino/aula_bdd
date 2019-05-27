@@ -10,7 +10,7 @@ Capybara.configure do |config|
   config.default_driver = :selenium
 
   # URL inicial
-  config.app_host = 'https://g1.globo.com/'
+  config.app_host = 'https://matriculaweb.unb.br/graduacao/default.aspx'
 
   config.default_max_wait_time = 10
 end
